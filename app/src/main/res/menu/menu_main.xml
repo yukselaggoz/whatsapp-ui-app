@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Arama"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_message"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="Mesajlar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_newGroup"
+        android:title="Yeni Grup" />
+    <item
+        android:id="@+id/item_messageToplu"
+        android:title="Yeni Toplu Mesaj" />
+    <item
+        android:id="@+id/item_messageYildizli"
+        android:title="Yıldızlı Mesajlar" />
+    <item
+        android:id="@+id/item_wpweb"
+        android:title="WhatsApp Web" />
+    <item
+        android:id="@+id/item_settings"
+        android:title="Ayarlar" />
+</menu>
